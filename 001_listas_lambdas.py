@@ -23,5 +23,5 @@ print(f'Calculando el doble de {number}: {number_double}\n\n')
 
 print('_________________________')
 for n in numbers_list:
-    r=
-print(f'Calculando el doble de {number}: {number_double}\n\n')
+    r = double_number(n)
+    print(f'Calculando el doble de {n} = {r}')
