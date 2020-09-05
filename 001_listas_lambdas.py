@@ -17,11 +17,25 @@ def double_number(value):
 
 number = 2500
 number_double=double_number(number)
-print('_________________________')
+print('______________________________')
 print(f'Calculando el doble de {number}: {number_double}\n\n')
 
 
-print('_________________________')
+
+print('______________________________')
 for n in numbers_list:
     r = double_number(n)
     print(f'Calculando el doble de {n} = {r}')
+
+
+
+print('______________________________')
+numbers_list_double = list(map(double_number, numbers_list))
+print(numbers_list)
+print(numbers_list_double)
+
+
+
+print('______________________________')
+double = lambda value: value * 2
+print(double_number(5000))
